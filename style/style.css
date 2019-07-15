@@ -57,3 +57,31 @@ flex-basis: 30%;
 .item__img{
     border-radius: 40px;
 }
+.label{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+    width: 615px;
+}
+.label__img{
+      text-align: center;
+}
+.label__item{
+  color: gray;
+  font-size: 16px;
+ text-align: center;
+}
+.label__header{
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.label__image:first-child{
+  margin-bottom: 5px;
+}
+.label__image:last-child{
+  margin-bottom: 5px;
+}
+.text__font{
+  font-family:cursive;
+  font-size: 14px;
+}
