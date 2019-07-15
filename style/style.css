@@ -1,0 +1,55 @@
+.block{
+  display: flex;
+  background: white;
+}
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 30px 15px 30px 15px;
+}
+.card__image{
+
+}
+.card-btn{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.title {
+  font-weight: normal;
+}
+
+.twitt{
+display: flex;
+background: #363839;
+max-width: 350px;
+padding: 10px;
+}
+.twitt__image{
+
+  max-width: 70px;
+  max-height: 65px;
+}
+.twitt__text{
+  color: gray;
+}
+.twitt__date{
+ color: white;
+}
+.gallery{
+  display: flex;
+  justify-content: space-around;
+      text-align: center;
+          margin: 0 200px;
+}
+.gallery__item{
+background: #f7f7f7;
+padding: 10px;
+margin: 10px;
+color: darkgray;
+flex-basis: 30%;
+}
