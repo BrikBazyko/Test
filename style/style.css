@@ -68,8 +68,9 @@ align-items: center;
     width: 615px;
 }
 .post__img{
-      text-align: center;
+    display: flex;
           margin-bottom: 10px;
+          align-items: center;
 }
 .post__item{
   color: gray;
@@ -80,12 +81,14 @@ align-items: center;
   font-size: 45px;
   margin-bottom: 15px;
 }
-.post__image:first-child{
-  margin-bottom: 5px;
+
+.post__line{
+  height: 1px;
+  background-color: silver;
+    width: 255px;
+    margin: 10px;
 }
-.post__image:last-child{
-  margin-bottom: 5px;
-}
+
 .text__font{
   font-family:cursive;
   font-size: 14px;
