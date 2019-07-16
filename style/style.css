@@ -61,29 +61,29 @@ flex-basis: 30%;
 .item__img{
     border-radius: 40px;
 }
-.label{
+.post{
   display: flex;
   flex-direction: column;
 align-items: center;
     width: 615px;
 }
-.label__img{
+.post__img{
       text-align: center;
           margin-bottom: 10px;
 }
-.label__item{
+.post__item{
   color: gray;
   font-size: 16px;
  text-align: center;
 }
-.label__header{
+.post__header{
   font-size: 45px;
   margin-bottom: 15px;
 }
-.label__image:first-child{
+.post__image:first-child{
   margin-bottom: 5px;
 }
-.label__image:last-child{
+.post__image:last-child{
   margin-bottom: 5px;
 }
 .text__font{
@@ -94,7 +94,7 @@ align-items: center;
   margin: 0;
   padding: 0;
 }
-.info{
+.blog{
   background: black;
 display: flex;
 flex-direction: column;
@@ -102,23 +102,26 @@ flex-direction: column;
     align-items: center;
     margin-top: 40px;
 }
-.info__image{
+.blog__image{
       margin-top: 35px;
   border-radius: 120px;
     margin-bottom: 50px;
 }
-.info__title{
+.blog__title{
   color: white;
   text-align: center;
   font-size: 38px;
   font-family: Geneva, Arial, Helvetica;
 margin-bottom: 10px;
 }
-.info__line{
-  margin: 50px;
-  width: 60px;
+.blog__line{
+  height: 2px;
+  color: #6ec3be;
+  background-color: #6ec3be;
+  width: 80px;
+  margin: 60px;
 }
-.info__text{
+.blog__text{
   color: white;
       font-size: 19px;
       text-align: center;
@@ -129,16 +132,25 @@ color: white;
 display: flex;
     text-align: center;
         width: 730px;
+        margin-top: 50px;
+    justify-content: center;
 }
+.title__img{
+  background: url(C:/Users/brikb/Downloads/Test/img/aline.jpg);
+  background-repeat: no-repeat;
+      background-position: center;
+      padding: 25px;
+  }
+
 .title__item{
   margin-bottom: 10px;
   color: white;
-    margin:70px 105px 20px 20px;
+
 }
-.info__list{
+.blog__list{
   font-size: 50px;
 }
-.info__number{
+.blog__number{
   font-size: 19px;
   width: 143px;
 }
