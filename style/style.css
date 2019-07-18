@@ -89,7 +89,7 @@
   margin: 10px;
 }
 
-.text__font{
+.text__item{
   font-family:cursive;
   font-size: 14px;
 }
@@ -130,13 +130,13 @@
   text-align: center;
   width: 750px;
 }
-.site-footer{
+.statistic-row{
   color: white;
   display: flex;
   text-align: center;
   width: 730px;
   margin-top: 50px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .title__img{
   background: url(C:/Users/brikb/Downloads/Test/img/aline.jpg);
@@ -145,7 +145,7 @@
   padding: 25px;
 }
 
-.title__item{
+.statistic-item{
   margin-bottom: 10px;
   color: white;
 
@@ -155,7 +155,7 @@
 }
 .blog__number{
   font-size: 19px;
-  width: 143px;
+  width: 170px;
 }
 
 .news{
@@ -167,14 +167,14 @@
 .news__content{
   max-width: 705px;
   margin-left: 80px;
-  position: relative;
+
 }
 .news__text{
   margin-bottom: 60px;
   color: gray;
   margin-top: 40px;
 }
-.news-btn{
+.btn-news{
   text-decoration: none;
   color: black;
   padding: 15px;
@@ -182,12 +182,15 @@
   font-weight: bold;
   border-radius: 5px;
 }
-.title::after{
+.news__content h2{
+  position: relative;
+}
+.news__title::after{
   content: "";
   position: absolute;
   width: 25px;
   height: 2px;
   background: black;
   left: 0px;
-  bottom: 330px;
+  bottom: 0px;
 }
