@@ -194,3 +194,32 @@
   left: 0px;
   bottom: 0px;
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: gray;
+}
+.header__section{
+  display: flex;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.header__item{
+  padding: 10px 15px;
+  margin-left: 10px;
+}
+.header__item-img{
+  width: 18px;
+  height: 18px;
+}
+.header__logo{
+  border: 1px solid black;
+  letter-spacing: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 15px;
+}
