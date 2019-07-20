@@ -174,7 +174,7 @@
   color: gray;
   margin-top: 40px;
 }
-.btn-news{
+.news__btn{
   text-decoration: none;
   color: black;
   padding: 15px;
@@ -201,20 +201,29 @@
   background: gray;
 }
 .header__section{
-  display: flex;
-  align-items: center;
+
 }
 a{
   text-decoration: none;
   color: black;
 }
-.header__item{
+.header__list{
+  display: flex;
+  align-items: center;
+}
+.header__list-item{
   padding: 10px 15px;
   margin-left: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
-.header__item-img{
+
+.header__list-img{
   width: 18px;
   height: 18px;
+}
+li{
+  list-style-type: none;
 }
 .header__logo{
   border: 1px solid black;
