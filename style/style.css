@@ -324,3 +324,64 @@ li{
   text-align: center;
   border-radius: 5px;
 }
+.comment{
+  margin: 10px;
+  padding: 10px;
+  background: gainsboro;
+  width: 700px;
+}
+h2.title{
+  margin-bottom: 30px;
+  font-weight: normal;
+  position: relative;
+}
+h2.title::after{
+  display: flex;
+  content: "";
+  height: 2px;
+  width: 100px;
+  background: black;
+}
+.fas.fa-star{
+  color: orange;
+}
+.far.fa-star{
+  color: orange;
+}
+.title__text{
+  color: darkgray;
+}
+.comment__section{
+  display: flex;
+}
+
+.comment__list{
+  margin-top: 20px;
+  flex-grow: 1.2;
+}
+
+.comment__caption{
+  width: 485px;
+}
+
+.comment__title{
+  color: gray;
+  font-weight: normal;
+  font-size: 15px;
+}
+.caption__title{
+  font-size: 18px;
+}
+.comment__text{
+  color: gray;
+  line-height: 28px;
+}
+.comment__section:last-child::after{
+  display: flex;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 666px;
+  background: darkgray;
+  margin-left: 10px;
+}
