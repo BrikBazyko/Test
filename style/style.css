@@ -258,7 +258,7 @@ li{
   color: white;
   font-size: 20px;
   padding: 3px;
-      margin-left: 10px;
+  margin-left: 10px;
 }
 
 .footer__top{
@@ -281,4 +281,46 @@ li{
 }
 .footer__text{
   margin-bottom: -5px;
+}
+.market{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 450px;
+  width: 350px;
+  border: 10px solid silver;
+  padding: 10px;
+}
+.market__title{
+  text-align: center;
+  color: gray;
+  font-size: 26px;
+}
+.title__text{
+  font-size: 36px;
+}
+.list__img{
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.market__list{
+  color: gray;
+}
+.market__title::after{
+  display: flex;
+  content: "";
+  width: 290px;
+  height: 2px;
+  background: aliceblue;;
+}
+.market-btn{
+  background: green;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
 }
