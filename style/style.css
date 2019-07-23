@@ -205,11 +205,11 @@ a{
   text-decoration: none;
   color: black;
 }
-.header__block{
+.menu{
   display: flex;
   align-items: center;
 }
-.header__block-item{
+.menu__item{
   padding: 10px 15px;
   margin-left: 10px;
   font-size: 18px;
@@ -223,7 +223,7 @@ a{
 li{
   list-style-type: none;
 }
-.header__logo{
+.logo{
   border: 1px solid black;
   letter-spacing: 5px;
   font-size: 16px;
@@ -325,7 +325,7 @@ li{
   text-align: center;
   border-radius: 5px;
 }
-.comment{
+.rewiev{
   margin: 10px;
   padding: 10px;
   background: gainsboro;
@@ -349,44 +349,34 @@ h2.title::after{
 .far.fa-star{
   color: orange;
 }
-.comment__cout{
+.rewiev__cout{
   color: darkgray;
 }
-.comment__review{
+.rewiev__section{
   display: flex;
   margin-bottom: 60px;
+  border-bottom:1px solid darkgray;
 }
-
-.comment__list{
-  margin-top: 20px;
+.rewiev__list{
   flex-grow: 1.2;
 }
-
-.comment__caption{
+.comment{
   width: 485px;
 }
-
 .comment__title{
   color: gray;
   font-weight: normal;
   font-size: 15px;
 }
-.caption__title{
+.comment__title{
   font-size: 18px;
 }
-.comment__text{
+.rewiev__section:last-child{
+  border-bottom: none;
+}
+.rewiev{
   color: gray;
   line-height: 28px;
-}
-.comment__review:last-child::after{
-  display: flex;
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 666px;
-  background: darkgray;
-  margin-left: 10px;
-  margin-top: -30px;
 }
 a{
   text-decoration: none;
@@ -396,6 +386,12 @@ a{
   margin-top: 50px;
   display: flex;
   width: 1000px;
+}
+.breadcrumb{
+  display: flex;
+}
+.description::before{
+  content: "-";
 }
 .product__content{
   margin-left: 30px;
@@ -475,8 +471,12 @@ a{
   margin-top: 30px;
   color: gray;
 }
-.text{
+.breadcrumb__item{
   margin-bottom: 10px;
+  color: gray;
+}
+.text,bold{
+  font-weight: bold;
 }
 .fas.fa-chevron-left{
   border: 1px solid darkgray;

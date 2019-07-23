@@ -111,33 +111,33 @@
                 </div>
                 <!-- 7 -->
                 <div class="header">
-                  <div class="header__logo">
+                  <div class="logo">
                     <a href="#">BRIDGE</a>
                   </div>
                   <nav>
-                    <ul class="header__block">
-                      <li class="header__block-item"><a href="#">Home</a>
+                    <ul class="menu">
+                      <li class="menu__item"><a href="#">Home</a>
                       </li>
-                      <li class="header__block-item"><a href="#"> Demos & Features</a>
+                      <li class="menu__item"><a href="#"> Demos & Features</a>
                       </li>
-                      <li class="header__block-item"><a href="#"> Pages</a>
+                      <li class="menu__item"><a href="#"> Pages</a>
                       </li>
-                      <li class="header__block-item"><a href="#">Elements </a>
+                      <li class="menu__item"><a href="#">Elements </a>
                       </li>
-                      <li class="header__block-item"><a href="#"> Work</a>
+                      <li class="menu__item"><a href="#"> Work</a>
                       </li>
-                      <li class="header__block-item"><a href="#"> Blog</a>
+                      <li class="menu__item"><a href="#"> Blog</a>
                       </li>
-                      <li class="header__block-item"><a href="#">Shop </a>
+                      <li class="menu__item"><a href="#">Shop </a>
                       </li>
-                      <li class="header__block-item"> <a href="#"><img src="img/basket.png" class="header__block-img"></a>
+                      <li class="menu__item"> <a href="#"><img src="img/basket.png" class="header__block-img"></a>
                       </li>
-                      <li class="header__block-item"><a href="#"> <img src="img/search.png" class="header__block-img"></a>
+                      <li class="menu__item"><a href="#"> <img src="img/search.png" class="header__block-img"></a>
                       </li>
-                      <li class="header__block-item"> <a href="#"> <img src="img/bars.png" class="header__block-img"></a>
+                      <li class="menu__item"> <a href="#"> <img src="img/bars.png" class="header__block-img"></a>
                       </li>
-                    </nav>
-                  </ul>
+                    </ul>
+                  </nav>
                 </div>
                 <!-- 8 -->
                 <div class="card-bar">
@@ -179,27 +179,27 @@
                   <a class="btn btn-market" href="#"> AVADA CLASSIC SHOP</a>
                 </div>
                 <!-- 10 -->
-                <div class="comment">
-                  <h2 class="title">REVIEWS <span class="comment__cout">(2)</span></h2>
-                  <div class="comment__review">
-                    <div class="comment__list">
+                <div class="rewiev">
+                  <h2 class="title">REVIEWS <span class="rewiev__cout">(2)</span></h2>
+                  <div class="rewiev__section">
+                    <div class="rewiev__list">
                       <i class="fas fa-star" ></i>
                       <i class="fas fa-star" ></i>
                       <i class="fas fa-star" ></i>
                       <i class="fas fa-star" ></i>
                       <i class="fas fa-star" ></i>
-                      <h4 class="comment__title">Atelier</h4>
-                      <h5 class="comment__title">February 20,2015</h5>
+                      <h4 class="rewiev__title">Atelier</h4>
+                      <h5 class="rewiev__title">February 20,2015</h5>
                     </div>
-                    <div class="comment__caption">
-                      <h3 class="caption__title"> Best check shirt around</h3>
+                    <div class="comment">
+                      <h3 class="comment__title"> Best check shirt around</h3>
                       <p class="comment__text">Lorem ipsum dolor sit isse potenti. Vesquam ante aliquet lacusemper
                         elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos
                         et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
                       </div>
                     </div>
-                    <div class="comment__review">
-                      <div class="comment__list">
+                    <div class="rewiev__section">
+                      <div class="rewiev__list">
                         <i class="fas fa-star" ></i>
                         <i class="fas fa-star" ></i>
                         <i class="fas fa-star" ></i>
@@ -208,8 +208,8 @@
                         <h4 class="comment__title">Atelier</h4>
                         <h5 class="comment__title">February 20,2015</h5>
                       </div>
-                      <div class="comment__caption">
-                        <h3 class="caption__title"> Buttons came off after a week</h3>
+                      <div class="comment">
+                        <h3 class="comment__title"> Buttons came off after a week</h3>
                         <p class="comment__text">Lorem ipsum dolor sit isse potenti. Vesquam ante aliquet lacusemper
                           elit. Cras neque nulla, convallis non commodo et, euismod nonsese. At vero eos
                           et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
@@ -221,52 +221,69 @@
                       <img src="img/man.png" alt="" class="product__img">
                       <div class="product__content">
                         <div class="product__content-menu">
-                          <div class="product__toolbar"> <p class="text"><a href="#">Home</a> <i class="fas fa-angle-right"> </i> <a href="#">Shirting</a> <i class="fas fa-angle-right"> </i><a href="#">Shirting</a> <i class="fas fa-angle-right"> </i> <a href="#">Checkered Army Shirt</a>
-                          </p>
-                          <h2 class="product__title">Checkered Army Shirt</h2>
+                          <div class="product__toolbar">
+                            <ul class="breadcrumb">
+                              <li class="breadcrumb__item">Home</li>
+                              <li class="breadcrumb__item"><i class="fas fa-angle-right">
+                              </i> </li>
+                              <li class="breadcrumb__item">Shirting</li>
+                              <li class="breadcrumb__item"> <i class="fas fa-angle-right">
+                              </i></li>
+                              <li class="breadcrumb__item">Checkered Army Shirt</li>
+                            </ul>
+                            <h2 class="product__title">Checkered Army Shirt</h2>
+                          </div>
+                          <div class="product__menu">
+                            <button type="button" name="button" class="btn"><i class="fas fa-chevron-left"></i></button>
+                            <button type="button" name="button" class="btn"><i class="fas fa-chevron-right"></i></button>
+                          </div>
                         </div>
-                        <div class="product__menu">
-                          <button type="button" name="button" class="btn"><i class="fas fa-chevron-left"></i></button>
-                          <button type="button" name="button" class="btn"><i class="fas fa-chevron-right"></i></button>
+                        <div class="product__price">
+                          <p class="text bold">₽165</p>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <p class="product__visitors">2 Reviews</p>
                         </div>
-                      </div>
-                      <div class="product__price">
-                        <p>₽165</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <p class="product__visitors">2 Reviews</p>
-                      </div>
-                      <p class="product__text">Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliqueta lacusemper elit. Cras
-                        neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et
-                        iusto odio dignissimos ducimus qui blanditiis praesentium.
-                      </p>
-                      <div class="product__caption">
-                        <p>-dark vany</p>
-                        <p>-98% cotton / 2% silk</p>
-                        <p>-model is 184 cm and wears size m= 48</p>
-                      </div>
-                      <div class="product__block">
-                        <input type="text" name="" value="" class="block-button-amount">
-                        <div class="product__block-button">
-                          <button class="btn" type="button" name="button"> <i class="fas fa-chevron-up"></i></button>
-                          <button class="btn" type="button"><i class="fas fa-chevron-down"></i></button>
+                        <p class="product__text">Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliqueta lacusemper elit. Cras
+                          neque nulla, convallis non commodo et, euismod nonsese. At vero eos et accusamus et
+                          iusto odio dignissimos ducimus qui blanditiis praesentium.
+                        </p>
+                        <div class="product__caption">
+                          <ul>
+                            <li class="description">
+                              dark vany
+                            </li>
+                            <li class="description">
+                              98% cotton / 2% silk
+                            </li>
+                            <li class="description">
+                              model is 184 cm and wears size m= 48
+                            </li>
+                          </ul>
                         </div>
-                        <a href="#" class="block__btn"> <i class="fas fa-cart-plus"></i>ADD TO CART</a>
-                        <a href="#">  <img src="img/print.png" alt="" class="product__block-img"></a>
-                      </div>
-                      <div class="product__caption down">
-                        <p>SKY:671867</p>
-                        <p>Category:Shirting</p>
-                        <p>Tags:Chacks, Shirting</p>
-                      </div>
-                      <div class="social">
-                        <p  class="social-title">Share</p>
-                        <p class="social-icon"><i class="fab fa-facebook-f"></i> 0 </p>
-                        <p class="social-icon"> <i class="fab fa-twitter"></i></p>
-                        <p class="social-icon"><i class="fab fa-instagram"></i> 1 </p>
+                        <div class="product__block">
+                          <input type="text" name="" value="" class="block-button-amount">
+                          <div class="product__block-button">
+                            <button class="btn" type="button" name="button"> <i class="fas fa-chevron-up"></i></button>
+                            <button class="btn" type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                          <a href="#" class="block__btn"> <i class="fas fa-cart-plus"></i>ADD TO CART</a>
+                          <a href="#">  <img src="img/print.png" alt="" class="product__block-img"></a>
+                        </div>
+                        <div class="product__caption down">
+                          <p>SKY:671867</p>
+                          <p>Category:Shirting</p>
+                          <p>Tags:Chacks, Shirting</p>
+                        </div>
+                        <div class="social">
+                          <p  class="social-title">Share</p>
+                          <p class="social-icon"><i class="fab fa-facebook-f"></i> 0 </p>
+                          <p class="social-icon"> <i class="fab fa-twitter"></i></p>
+                          <p class="social-icon"><i class="fab fa-instagram"></i> 1 </p>
+                        </div>
                       </div>
                     </div>
                   </body>
