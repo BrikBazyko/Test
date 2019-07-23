@@ -353,6 +353,7 @@ h2.title::after{
 }
 .comment__section{
   display: flex;
+  margin-bottom: 60px;
 }
 
 .comment__list{
@@ -384,4 +385,159 @@ h2.title::after{
   width: 666px;
   background: darkgray;
   margin-left: 10px;
+  margin-top: -30px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.page{
+  margin-top: 50px;
+  display: flex;
+  width: 1000px;
+}
+.page__content{
+  margin-left: 30px;
+}
+.page__content-menu{
+  display: flex;
+}
+.page__menu a{
+  height: 26px;
+  width: 26px;
+}
+.page__toolbar{
+  flex-grow: 1;
+  margin-bottom: 90px;
+}
+.page__toolbar::after{
+  display: flex;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 560px;
+  background: darkgray;
+  margin-top: 50px;
+}
+.page__menu{
+  display: flex;
+  flex-direction: column;
+}
+.fas.fa-star{
+  margin-left: 5px;
+  color: orange;
+}
+.far.fa-star{
+  margin-left: 5px;
+  color: orange;
+}
+.page__visitors{
+  margin-left: 5px;
+}
+
+.page__title{
+  font-weight: normal;
+}
+
+.page__toolbar a{
+  color: gray;
+}
+.page__toolbar p{
+  color: gray;
+}
+.block__btn{
+  border:1px solid black;
+  padding: 15px 5px 15px 5px;
+  width: 150px;
+  text-align: center;
+  margin-left: 10px;
+  background: white;
+}
+.page__img{
+  height: 600px;
+  width: 400px;
+}
+.page__block-button{
+  display: flex;
+  flex-direction: column;
+}
+.page__price{
+  display: flex;
+}
+.page__button{
+  border: 1px solid darkgray;
+}
+.page__block{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.page__caption{
+  margin-top: 50px;
+  color: gray;
+}
+.fas.fa-chevron-up{
+  border: 1px solid darkgray;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+}
+.fas.fa-chevron-down{
+  border: 1px solid darkgray;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+}
+.block-button-amount{
+  width: 40px;
+  height: 50px;
+  text-align: center;
+}
+.page__button{
+  width: 25px;
+  height: 25px;
+}
+.fas.fa-cart-plus{
+  margin-right: 10px;
+}
+.page__block-img{
+  border: 1px solid darkgray;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.page__caption.down{
+  margin-top: 40px;
+}
+.page__social{
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+}
+.page__social-img{
+  margin-left: 15px;
+  color: gray;
+}
+.page__text{
+  color: gray;
+  margin-top: 30px;
+}
+.page__social::before{
+  display: flex;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 560px;
+  background: darkgray;
+  margin-top: -15px;
+}
+.page__social-title::after{
+  display: flex;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 560px;
+  background: darkgray;
+  margin-top: 25px;
 }
