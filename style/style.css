@@ -1,3 +1,11 @@
+.container{
+  width: 1200px;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .block{
   display: flex;
   background: white;
@@ -9,9 +17,7 @@
   text-align: center;
   padding: 30px 15px 30px 15px;
   max-width: 275px;
-}
-.card__image{
-
+  margin-bottom: 100px;
 }
 .card-btn{
   text-decoration: none;
@@ -27,15 +33,14 @@
 .title {
   font-weight: normal;
 }
-
 .twitt{
   display: flex;
   background: #363839;
   max-width: 350px;
   padding: 10px;
+  margin-bottom: 100px;
 }
 .twitt__image{
-
   max-width: 70px;
   max-height: 65px;
 }
@@ -50,6 +55,7 @@
   justify-content: space-around;
   text-align: center;
   margin: 0 200px;
+  margin-bottom: 100px;
 }
 .gallery-item{
   background: #f7f7f7;
@@ -66,6 +72,7 @@
   flex-direction: column;
   align-items: center;
   width: 615px;
+  margin-bottom: 100px;
 }
 .post__img{
   display: flex;
@@ -88,7 +95,6 @@
   width: 255px;
   margin: 10px;
 }
-
 .text__item{
   font-family:cursive;
   font-size: 14px;
@@ -104,6 +110,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  margin-bottom: 100px;
 }
 .blog__image{
   margin-top: 35px;
@@ -144,11 +151,9 @@
   background-position: center;
   padding: 25px;
 }
-
 .statistic-item{
   margin-bottom: 10px;
   color: white;
-
 }
 .blog__list{
   font-size: 50px;
@@ -157,7 +162,6 @@
   font-size: 19px;
   width: 170px;
 }
-
 .news{
   display: flex;
   justify-content: center;
@@ -167,7 +171,6 @@
 .news__content{
   max-width: 705px;
   margin-left: 80px;
-
 }
 .news__text{
   margin-bottom: 60px;
@@ -199,8 +202,8 @@
   justify-content: space-between;
   padding: 20px;
   background: gray;
+  margin-bottom: 100px;
 }
-
 a{
   text-decoration: none;
   color: black;
@@ -215,8 +218,7 @@ a{
   font-size: 18px;
   text-transform: uppercase;
 }
-
-.header__block-img{
+.menu__img{
   width: 18px;
   height: 18px;
 }
@@ -232,6 +234,7 @@ li{
 }
 .card-bar{
   margin: 20px;
+  margin-bottom: 100px;
 }
 .card-bar__main{
   background-image: url(C:/Users/brikb/Downloads/Test/img/bar.jpg);
@@ -247,10 +250,11 @@ li{
   justify-content: flex-end;
   margin: 25px;
 }
-.card-bar__title{
+.title ,card-bar{
   margin-bottom: 5px;
+  margin-left: 0;
 }
-.card-bar__rating{
+.rating{
   background: #30d830;
   border-radius: 16px;
   color: white;
@@ -258,7 +262,6 @@ li{
   padding: 3px;
   margin-left: 10px;
 }
-
 .card-bar__top{
   margin: 10px;
 }
@@ -277,8 +280,7 @@ li{
   height: 15px;
   margin-right: 10px;
 }
-
-.market{
+.package{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -287,11 +289,13 @@ li{
   width: 350px;
   border: 10px solid silver;
   padding: 10px;
+  margin-bottom: 100px;
 }
-.market__title{
+.title ,package--item{
   text-align: center;
   color: gray;
   font-size: 26px;
+  border-bottom: 2px solid darkgray;
 }
 .price__text{
   font-size: 36px;
@@ -304,19 +308,15 @@ li{
 .fas.fa-check-circle{
   color: green;
 }
-.market__list{
+.list__item{
   color: gray;
   text-align: center;
   margin-bottom: 20px;
 }
-.market__title::after{
-  display: flex;
-  content: "";
-  width: 290px;
-  height: 2px;
-  background: aliceblue;;
+.list ,list-package{
+  border-bottom: 2px solid darkgray;
 }
-.btn.btn-market{
+.btn.btn--package{
   background: green;
   text-decoration: none;
   color: white;
@@ -325,23 +325,12 @@ li{
   text-align: center;
   border-radius: 5px;
 }
-.rewiev{
+.review{
   margin: 10px;
   padding: 10px;
   background: gainsboro;
   width: 700px;
-}
-h2.title{
-  margin-bottom: 30px;
-  font-weight: normal;
-  position: relative;
-}
-h2.title::after{
-  display: flex;
-  content: "";
-  height: 2px;
-  width: 100px;
-  background: black;
+  margin-bottom: 100px;
 }
 .fas.fa-star{
   color: orange;
@@ -349,15 +338,15 @@ h2.title::after{
 .far.fa-star{
   color: orange;
 }
-.rewiev__cout{
+.review__count{
   color: darkgray;
 }
-.rewiev__section{
+.review__section{
   display: flex;
   margin-bottom: 60px;
   border-bottom:1px solid darkgray;
 }
-.rewiev__list{
+.comment__info{
   flex-grow: 1.2;
 }
 .comment{
@@ -371,10 +360,14 @@ h2.title::after{
 .comment__title{
   font-size: 18px;
 }
-.rewiev__section:last-child{
+.review__section:last-child{
   border-bottom: none;
 }
-.rewiev{
+.title ,review--title{
+  text-align: start;
+  border-bottom: none;
+}
+.review{
   color: gray;
   line-height: 28px;
 }
@@ -390,7 +383,7 @@ a{
 .breadcrumb{
   display: flex;
 }
-.description::before{
+.product-description__item::before{
   content: "-";
 }
 .product__content{
@@ -399,6 +392,7 @@ a{
 }
 .product__content-menu{
   display: flex;
+  border-bottom: 2px solid darkgray;
 }
 .product__menu a{
   height: 26px;
@@ -406,16 +400,7 @@ a{
 }
 .product__toolbar{
   flex-grow: 1;
-  margin-bottom: 90px;
-}
-.product__toolbar::after{
-  display: flex;
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 560px;
-  background: darkgray;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .product__menu{
   display: flex;
@@ -458,6 +443,7 @@ a{
 }
 .product__price{
   display: flex;
+  margin-top: 30px;
 }
 .product__button{
   border: 1px solid darkgray;
@@ -467,7 +453,7 @@ a{
   align-items: center;
   margin-top: 30px;
 }
-.product__caption{
+.product-description{
   margin-top: 30px;
   color: gray;
 }
@@ -536,6 +522,9 @@ a{
   display: flex;
   position: relative;
   margin-top: 50px;
+  border-top: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  padding: 20px 0 20px;
 }
 .product__social-img{
   margin-left: 15px;
@@ -551,22 +540,4 @@ a{
 }
 .social-icon{
   margin-left: 15px;
-}
-.social::before{
-  display: flex;
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 560px;
-  background: darkgray;
-  margin-top: -15px;
-}
-.social-title::after{
-  display: flex;
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 560px;
-  background: darkgray;
-  margin-top: 25px;
 }
