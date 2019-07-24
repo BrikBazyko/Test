@@ -18,6 +18,10 @@
   padding: 30px 15px 30px 15px;
   max-width: 275px;
   margin-bottom: 100px;
+  background: gainsboro;
+}
+.card--title{
+  border-bottom: none;
 }
 .card-btn{
   text-decoration: none;
@@ -66,6 +70,9 @@
 }
 .gallery-item__img{
   border-radius: 40px;
+}
+.gallery--title{
+  color:gray;
 }
 .post{
   display: flex;
@@ -201,7 +208,8 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background: gray;
+  /* background: gray; */
+  background-image: url(C:/Users/brikb/Downloads/Test/img/background.jpg);
   margin-bottom: 100px;
 }
 a{
@@ -250,7 +258,7 @@ li{
   justify-content: flex-end;
   margin: 25px;
 }
-.title ,card-bar{
+.card-title{
   margin-bottom: 5px;
   margin-left: 0;
 }
@@ -291,7 +299,7 @@ li{
   padding: 10px;
   margin-bottom: 100px;
 }
-.title ,package--item{
+.package--title{
   text-align: center;
   color: gray;
   font-size: 26px;
@@ -313,7 +321,7 @@ li{
   text-align: center;
   margin-bottom: 20px;
 }
-.list ,list-package{
+.list-package{
   border-bottom: 2px solid darkgray;
 }
 .btn.btn--package{
@@ -343,8 +351,9 @@ li{
 }
 .review__section{
   display: flex;
-  margin-bottom: 60px;
-  border-bottom:1px solid darkgray;
+  margin-bottom: 15px;
+  border-bottom: 2px solid darkgray;
+  padding: 0px 0 20px 0;
 }
 .comment__info{
   flex-grow: 1.2;
@@ -361,10 +370,6 @@ li{
   font-size: 18px;
 }
 .review__section:last-child{
-  border-bottom: none;
-}
-.title ,review--title{
-  text-align: start;
   border-bottom: none;
 }
 .review{
@@ -461,7 +466,7 @@ a{
   margin-bottom: 10px;
   color: gray;
 }
-.text,bold{
+.bold{
   font-weight: bold;
 }
 .fas.fa-chevron-left{
@@ -534,7 +539,7 @@ a{
   color: gray;
   margin-top: 30px;
 }
-.btn{
+.button{
   border: 0;
   background: white;
 }
