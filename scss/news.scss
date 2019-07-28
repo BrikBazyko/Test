@@ -1,0 +1,27 @@
+.news{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  &__content{
+    max-width: 705px;
+    margin-left: 80px;
+  }
+  &__text{
+    margin-bottom: 60px;
+    color: gray;
+    margin-top: 40px;
+  }
+  &__content h2{
+    position: relative;
+  }
+  &__title::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: black;
+    left: 0px;
+    bottom: 0px;
+  }
+}

@@ -1,0 +1,36 @@
+.card-bar{
+  margin: 20px;
+  margin-bottom: 100px;
+  &__main{
+    background-image: url(C:/Users/brikb/Downloads/Test/img/bar.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 235px;
+    color: white;
+    display: flex;
+  }
+  &__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 25px;
+  }
+  &__top{
+    margin: 10px;
+  }
+  &__image{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+  }
+  &__image:last-child{
+    margin-left: 190px;
+    width: 20px;
+    height: 20px;
+  }
+  &__img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,30 @@
+.package{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 450px;
+  width: 350px;
+  border: 10px solid silver;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+.price__text{
+  font-size: 36px;
+}
+// .list__img{
+//   height: 15px;
+//   width: 15px;
+//   margin-right: 5px;
+// }
+.fas.fa-check-circle{
+  color: green;
+}
+.list__item{
+  color: gray;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.list--package{
+  border-bottom: 2px solid darkgray;
+}

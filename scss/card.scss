@@ -1,0 +1,19 @@
+$padd: 30px 15px 30px 15px;
+$alignCenter:center;
+$borderBlack: 1px solid black;
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: $alignCenter;
+  text-align: $alignCenter;
+  padding: $padd;
+  max-width: 275px;
+  margin-bottom: 100px;
+  background: gainsboro;
+
+  &__text{
+    margin-top: 15px;
+  }
+
+}

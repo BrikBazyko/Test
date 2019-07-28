@@ -1,0 +1,38 @@
+.review{
+  margin: 10px;
+  padding: 10px;
+  background: gainsboro;
+  width: 700px;
+  margin-bottom: 100px;
+  color: gray;
+  line-height: 28px;
+  &__count{
+    color: darkgray;
+  }
+  &__section{
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 2px solid darkgray;
+    padding: 0px 0 20px 0;
+  }
+ &__section:last-child{
+    border-bottom: none;
+  }
+}
+.fas.fa-star{
+  color: orange;
+}
+.far.fa-star{
+  color: orange;
+}
+.comment{
+  width: 485px;
+  &__info{
+    flex-grow: 1.2;
+  }
+  &__caption{
+    color: gray;
+    font-weight: normal;
+    font-size: 18px;
+  }
+}

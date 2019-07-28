@@ -1,0 +1,102 @@
+@import "card";
+@import "twitt";
+@import "gallery";
+@import "post";
+@import "blog";
+@import "news";
+@import "header";
+@import "card-bar";
+@import "package";
+@import "review";
+@import "product";
+
+.container{
+  width: 1200px;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: normal;
+  &--card{
+    border-bottom: none;
+  }
+  &--gallery{
+    color:gray;
+  }
+  &--card-bar{
+    margin-bottom: 5px;
+    margin-left: 0;
+  }
+  &--package{
+    text-align: center;
+    color: gray;
+    font-size: 26px;
+    border-bottom: 2px solid darkgray;
+  }
+}
+.text{
+  color: gray;
+  font-size: 16px;
+  text-align: center;
+  &--bold{
+    font-weight: bold;
+    color: black;
+  }
+}
+.btn {
+  &--card{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: $borderBlack;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  &--news{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  &--package{
+    background: green;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+  }
+}
+.button{
+  border: 0;
+  background: white;
+  &--product{
+    border: 1px solid darkgray;
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style-type: none;
+}
+.rating{
+  background: #30d830;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  padding: 3px;
+  margin-left: 10px;
+}

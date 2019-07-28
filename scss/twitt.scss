@@ -1,0 +1,17 @@
+.twitt{
+  display: flex;
+  background: #363839;
+  max-width: 350px;
+  padding: 10px;
+  margin-bottom: 100px;
+  &__image{
+    max-width: 70px;
+    max-height: 65px;
+  }
+  &__text{
+    color: gray;
+  }
+  &__date{
+    color: white;
+  }
+}
