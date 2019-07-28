@@ -1,0 +1,12 @@
+.text{
+  color: gray;
+  font-size: 16px;
+  text-align: center;
+  &--bold{
+    font-weight: bold;
+    color: black;
+  }
+  &--price{
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,14 @@
+.menu{
+  display: flex;
+  align-items: center;
+  &__item{
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  &__img{
+    width: 18px;
+    height: 18px;
+  }
+}

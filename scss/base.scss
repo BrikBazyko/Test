@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style-type: none;
+}
+.fas.fa-check-circle{
+  color: green;
+}
+.fas.fa-star{
+  color: orange;
+}
+.far.fa-star{
+  margin-left: 5px;
+  color: orange;
+}
+.fas.fa-chevron-left{
+  border: 1px solid darkgray;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fas.fa-chevron-right{
+  border: 1px solid darkgray;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fas.fa-chevron-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid darkgray;
+  height: 25px;
+  width: 25px;
+}
+.fas.fa-chevron-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid darkgray;
+  height: 25px;
+  width: 25px;
+}
+.fas.fa-cart-plus{
+  margin-right: 10px;
+}

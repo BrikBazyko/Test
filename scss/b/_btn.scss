@@ -1,0 +1,35 @@
+.btn {
+  &--card{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: $borderBlack;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  &--news{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  &--package{
+    background: green;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  &--product{
+    border:1px solid black;
+    padding: 15px 5px 15px 5px;
+    width: 150px;
+    text-align: center;
+    margin-left: 10px;
+    background: white;
+  }
+}

@@ -1,0 +1,28 @@
+.title {
+  font-weight: normal;
+  &--card{
+    border-bottom: none;
+  }
+  &--gallery{
+    color:gray;
+  }
+  &--card-bar{
+    margin-bottom: 5px;
+    margin-left: 0;
+  }
+  &--package{
+    text-align: center;
+    color: gray;
+    font-size: 26px;
+    border-bottom: 2px solid darkgray;
+  }
+  &--img{
+    background:url(../img/aline.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px;
+  }
+  &--product{
+    font-weight: normal;
+  }
+}
