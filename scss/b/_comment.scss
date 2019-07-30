@@ -1,0 +1,12 @@
+@import "_variables";
+.comment{
+  width: 485px;
+  &__info{
+    flex-grow: 1.2;
+  }
+  &__caption{
+    color: $colorBlack;
+    font-weight: normal;
+    font-size: 18px;
+  }
+}

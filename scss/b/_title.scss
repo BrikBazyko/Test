@@ -1,3 +1,4 @@
+@import "_variables";
 .title {
   font-weight: normal;
   &--card{
@@ -24,5 +25,8 @@
   }
   &--product{
     font-weight: normal;
+  }
+  &--review{
+    color: $colorBlack;
   }
 }

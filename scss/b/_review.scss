@@ -19,20 +19,3 @@
     border-bottom: none;
   }
 }
-.fas.fa-star{
-  color: orange;
-}
-.far.fa-star{
-  color: orange;
-}
-.comment{
-  width: 485px;
-  &__info{
-    flex-grow: 1.2;
-  }
-  &__caption{
-    color: gray;
-    font-weight: normal;
-    font-size: 18px;
-  }
-}
